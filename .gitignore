@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+.vscode/
+.idea/
+
+# Generated reproduction outputs.
+output/
+
+# TrackEval creates these at runtime. Keep the source package clean.
+deps/TrackEval/data/gt/*
+!deps/TrackEval/data/gt/.gitkeep
+deps/TrackEval/data/trackers/*
+!deps/TrackEval/data/trackers/.gitkeep
+deps/TrackEval/data/seqmaps/*
+!deps/TrackEval/data/seqmaps/.gitkeep
